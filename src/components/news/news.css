@@ -1,0 +1,56 @@
+* {
+  padding: 2;
+  margin: 2;
+}
+
+body {
+  overflow: hidden;
+}
+
+marquee {
+  padding: 6px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #001275;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  width: 50%;
+  height: 70%;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-pic {
+  display: block;
+  height: 40%;
+  background-image: url("https://img.freepik.com/premium-photo/news-studio-backdrop-tv-shows-tv-wall-3d-virtual-news-studio-background-3d-illustration_327072-2553.jpg?w=1060");
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  background-size: cover;
+}
+
+.card-title {
+  margin-top: 5px;
+  padding: 4px;
+  width: 100%;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card-content {
+  margin-top: 8px;
+  padding: 2px;
+  width: 70%;
+}
